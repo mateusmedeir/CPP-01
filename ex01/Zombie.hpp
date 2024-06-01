@@ -13,7 +13,7 @@ class Zombie {
         std::string getName();
         void setName(std::string name);
         void announce();
-        Zombie* zombieHorde(int N, std::string name);
+        static Zombie* zombieHorde(int N, std::string name);
 };
 
 #endif
