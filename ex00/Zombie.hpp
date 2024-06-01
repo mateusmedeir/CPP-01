@@ -11,7 +11,7 @@ class Zombie {
         ~Zombie();
         void announce();
         static Zombie *newZombie(std::string name);
-        void randomChump(std::string name);
+        static void randomChump(std::string name);
 };
 
 #endif
