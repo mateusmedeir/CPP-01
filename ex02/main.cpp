@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main() {
+int main()
+{
     std::string stringINI = "HI THIS IS BRAIN";
     std::string *stringPTR = &stringINI;
     std::string &stringREF = stringINI;

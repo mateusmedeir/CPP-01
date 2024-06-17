@@ -1,6 +1,7 @@
 #include "Zombie.hpp"
 
-int main() {
+int main()
+{
     Zombie zombie1 = Zombie("Rodrigo");
     zombie1.announce();
 
