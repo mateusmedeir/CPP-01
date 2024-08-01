@@ -19,5 +19,7 @@ Weapon *HumanB::getWeapon()
 
 void HumanB::setWeapon(Weapon &weapon)
 {
+    if (this->_weapon)
+        delete this->_weapon;
     this->_weapon = &weapon;
 }
